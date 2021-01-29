@@ -1,0 +1,11 @@
+ALGORITHME voyelle_board
+variable 
+Tableau mymark(8) : Réel
+i : Réel
+
+Debut
+    Pour i ← 0 à 8
+     Ecrire ("Entrez la note numéro ", i + 1)
+     Lire (mymark[i])
+    FinPour
+Fin

@@ -1,0 +1,31 @@
+ALGORITHME pay_article
+
+
+Variables ACHA, somdue, MVERSE, Reste, Nb10E, Nb5E : Entier
+Debut
+ACHA ← 1
+somdue ← 0
+    TantQue (ACHA <> 0)
+      Ecrire ("Entrez le montant : ")
+        Lire ACHA
+        somdue ← somdue + ACHA
+    FinTantQue
+        Ecrire ("Vous devez :", somdue, " euros")
+        Ecrire ("Montant versé :")
+   Lire MVERSE
+        Reste ← MVERSE - somdue
+        Nb10E ← 0
+            TantQue Reste >= 10
+                Nb10E ← Nb10E + 1
+                Reste ← Reste – 10
+            FinTantQue
+        Nb5E ← 0
+            Si Reste >= 5
+             Nb5E ← 1
+             Reste ← Reste – 5
+            FinSi
+Ecrire ("Rendu de la monnaie :")
+Ecrire ("Billets de 10 E : ", Nb10E)
+Ecrire ("Billets de  5 E : ", Nb5E)
+Ecrire ("Pièces de 1 E : ", reste)
+Fin

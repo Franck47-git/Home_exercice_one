@@ -1,0 +1,11 @@
+ALGORITHME voyelle_board
+Variable
+Tableau value(5) : Caractère
+Debut
+    value(0) ← "a"
+    value(1) ← "e"
+    value(2) ← "i"
+    value(3) ← "o"
+    value(4) ← "u"
+    value(5) ← "y"
+Fin
