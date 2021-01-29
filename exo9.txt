@@ -1,0 +1,12 @@
+ALGORITHME number_nine
+Variable XL : Entier
+Debut
+XL ← 0
+Ecrire ("Entrez un nombre entre 1 et 3")
+TantQue XL < 1 ou XL > 3
+  Lire XL
+    Si XL < 1 ou XL > 3 Alors
+      Ecrire ("Saisie erronée. Recommencez")
+    FinSi
+  FinTantQue
+Fin

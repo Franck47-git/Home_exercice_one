@@ -1,0 +1,35 @@
+ALGORITHME assurrance_compagny
+var  
+    age , obtain_year, crash : entier
+                 
+
+DEBUT
+    ECRIRE("Saisissez votre age ")
+        LIRE(age)
+         ECRIRE("Etes vous en possession de votre permis depuis combien d'année ?")
+           LIRE(obtain_year)
+            ECRIRE("Avez vous déjà fait un accident ? si oui précisisez le nombre")
+                LIRE(crash)
+                si (age < 25 et obtain_year < 2 et crash == 0)
+                    ECRIRE("Le tarif correspondant est le rouge")
+                    si (age < 25 et obtain_year < 2 et crash == 0)
+                        ECRIRE("Le tarif correspondant est le orange")
+                        si (age < 25 && obtain_year < 2 && crash == 1)
+                            ECRIRE("Le tarif correspondant est le rouge")
+                            si (age > 25 et obtain_year > 2 et crash == 0)
+                                ECRIRE("Le tarif correspondant est le vert")
+                                si (age > 25 et obtain_year > 2 et crash == 1)
+                                ECRIRE("Le tarif correspondant est le orange")
+                                    si (age > 25 et obtain_year > 2 et crash == 2)
+                                    ECRIRE("Le tarif correspondant est le rouge")
+                                    si(obtain_year > 2 et crash == 0 )
+                                        ECRIRE("Vous compagnie vous offre un tarif vert")
+                                    sinon
+                                        ("Désolé le tarif vous est réfusé")
+                finsi
+                    finsi
+                        finsi
+                            finsi
+                                finsi
+                                    finsi
+FIN

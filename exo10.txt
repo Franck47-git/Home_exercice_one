@@ -1,0 +1,15 @@
+ALGORITHME number_nine_found
+Variable M : Entier
+Debut
+M ← 0
+Ecrire "Entrez un nombre entre 10 et 20"
+    TantQue M < 10 ou M > 20
+        Lire M
+            Si M < 10 Alors
+            Ecrire "Plus grand !"
+            Sinon
+                Si M > 20 Alors
+            Ecrire "Plus petit !"
+            FinSi
+FinTantQue
+Fin

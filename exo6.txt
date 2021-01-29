@@ -1,0 +1,26 @@
+ALGORITHME election
+
+Variables REA, REB, REC, RED : Reel
+Variables F1, F2, F3, F4 : Booléen
+DEBUT
+    ECRIRE("Entrez les scores des quatre prétendants :")
+    LIRE(REA, REB, REC, RED)
+        F1 <- REA > 50
+        F2 <- REB > 50 ou REC > 50 ou RED > 50
+        F3 <- REA >= REB et REA >= REC et REA >= RED
+        F4 <- REA >= 12,5
+         si
+            (F1)
+                ECRIRE("Vous êtes elu au premier tour")
+                sinon
+                 si (F2 ou Non F4)
+                    ECRIRE("Vous êtes battu et éliminé")
+                     sinon
+                        si(F3)
+                       ECRIRE ("Ballotage favorable")
+                sinon
+                  ECRIRE ("Ballotage defavorable")
+        finsi
+            finsi
+                finsi
+FIN

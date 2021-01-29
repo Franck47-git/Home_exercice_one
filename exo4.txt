@@ -1,0 +1,16 @@
+ALGORITHME photocopieuse
+var  
+    copy : entier
+DEBUT
+    ECRIRE("Entrez le nombre de copie à photocopier")
+        LIRE(copy)
+            si(copy <= 10)
+                ECRIRE("La facture est de 0,10 E")
+                sinon
+                    si(copy <= 20)
+                        ECRIRE("La facture est de 0,09 E")
+                        sinon
+                            ECRIRE("La facture est de 0,08 E")
+            finsi
+                    finsi
+FIN

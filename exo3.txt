@@ -1,0 +1,21 @@
+ALGORITHME twowes
+var  
+    hour, min, sec : entier
+DEBUT
+    
+    sec = sec + 1
+    si(sec == 60)
+        alors
+            sec = 00
+    min = min + 1
+    si(min == 60)
+        alors
+            min = 00
+            hour= hour + 1
+            si(hour == 24 )
+                alors
+             hour = 00
+             ECRIRE("Dans une second, il sera 'hour' : 'min': minute,'sec' seconde")
+    finsi
+        finsi
+FIN

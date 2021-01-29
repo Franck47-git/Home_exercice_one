@@ -1,0 +1,17 @@
+ALGORITHME one
+var  
+    tutu, toto : entier
+        tata   : chaîne de caractère
+DEBUT
+    ECRIRE("Saisissez un premier nombre")
+        LIRE(tutu)
+            ECRIRE("Saisissez un second nombre")
+                LIRE(toto)
+                    ECRIRE("Saisissez OK pour valider")
+                        LIRE(tata)
+                            si(Tutu > Toto + 4 OU Tata = "OK")
+                                ECRIRE("la première valeur entrée a été augmentée de 1")
+                                    sinon 
+                                        ECRIRE("La deuxième valeur entrée a été diminuée de 1")
+                            finsi
+FIN

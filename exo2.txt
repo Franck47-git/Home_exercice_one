@@ -1,0 +1,16 @@
+ALGORITHME two
+var  
+    hour, min : entier
+DEBUT
+    min = min + 1
+    si(min == 60)
+        alors
+            min = 00
+            hour= hour + 1
+            si(hour == 24 )
+                alors
+             hour = 00
+             ECRIRE("Dans une minute, il sera 'hour' : 'min' minute")
+    finsi
+        finsi
+FIN

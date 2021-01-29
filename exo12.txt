@@ -1,0 +1,10 @@
+ALGORITHME multiple
+Variables value, i : Entier
+DEBUT
+Ecrire "Entrez un nombre : "
+LIRE value
+Ecrire "La table de multiplication de ce nombre est : "
+Pour i ← 1 à 10
+  Ecrire value, " x ", i, " = ", value*i
+i Suivant
+Fin

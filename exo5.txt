@@ -1,0 +1,21 @@
+ALGORITHME facture
+var  
+    age : entier
+    sexe : chaîne de caractère
+DEBUT
+    ECRIRE("Quel âge avez-vous?")
+        LIRE(age)
+        ECRIRE("Vous êtes de quel sexe? mettez 'H' pour homme et 'F' pour femme")
+            si(age >= 20 et sexe=="H")
+                ECRIRE("Vous devez payez vos impôts")
+                    si(age >= 20 et sexe=="H")
+                        ECRIRE("Vous devez payez vos impôts")
+                            si(age >= 18 ou age <= 35 et sexe=="F")
+                                ECRIRE("Vous devez payez vos impôts")
+                                sinon
+                                    ECRIRE("Vous êtes pas concerné")
+            finsi
+                    finsi
+                            finsi
+
+FIN
