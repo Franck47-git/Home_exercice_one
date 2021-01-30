@@ -1,0 +1,22 @@
+ALGORITHME tableau
+variable
+Tableau notes() Nber, NberP, NberN: Entier
+    i: Entier
+Debut
+    ECRIRE("Entrez un nombre quelconque de valeur")
+    LIRE (Nber)
+    Redim notes(Nber-1)
+    NberP <- 0
+    NberN <- 0
+    Pour i ← 0 à Nber - 1
+    Ecrire ("Entrez le nombre n° ", i + 1)
+      Lire notes(i)
+            Si notes(i) > 0 alors
+    NberP ← NberP + 1
+              Sinon
+    NberN ← NberN + 1
+                Finsi 
+   i Suivant
+     Ecrire ("Nombre de valeurs positives : ", NberP)
+       Ecrire ("Nombre de valeurs négatives : ", NberN)
+Fin

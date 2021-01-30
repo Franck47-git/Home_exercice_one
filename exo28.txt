@@ -1,0 +1,19 @@
+ALGORITHME found_table
+Variables Nber, x : Reel
+Tableau notes() : Reel
+Ecrire ("Entrez le nombre de valeurs :")
+Lire (Nber)
+Redim notes(Nber-1)
+Pour i ← 0 à Nber - 1
+  Ecrire ("Entrez le nombre n° ", i + 1)
+  Lire notes(i)
+i Suivant
+Posmaxi ← 0
+Pour i ← 0 à Nber - 1
+  Si notes(i) > notes(x) alors
+    Posmaxi ← i
+  Finsi
+i Suivant
+Ecrire ("Element le plus grand : ", notes(x))
+Ecrire ("Position de cet élément : ", x)
+Fin

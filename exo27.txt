@@ -1,0 +1,13 @@
+ALGORITHME table
+
+  Variables i, value, nmber : Reel
+    Tableau test() : Reel
+Debut
+  Redim test(nmber-1)
+value <- 0
+    Pour i <- 0 à nmber - 1
+  value <- value + test(i)
+i Suivant
+Ecrire ("Somme des éléments du tableau : ", value)
+    FinPour  
+Fin
